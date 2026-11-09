@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "helious": {
+      "serverUrl": "https://api.helious.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "helious": {
+      "type": "streamableHttp",
+      "url": "https://api.helious.io/mcp"
+    }
+  }
+}

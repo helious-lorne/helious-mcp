@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.helious/market-intelligence",
+  "title": "Helious market intelligence",
+  "description": "US Treasury auction tails, the live curve regime, scored macro releases, and why rates moved.",
+  "version": "1.1.0",
+  "websiteUrl": "https://helious.io/ai/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.helious.io/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://helious.io/helious-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentation": "https://helious.io/developers/",
+      "gettingStarted": "https://helious.io/ai/",
+      "authDocumentation": "https://helious.io/auth.md",
+      "openapi": "https://helious.io/.well-known/openapi-public.json",
+      "serverCard": "https://helious.io/.well-known/mcp/server-card.json",
+      "authorizationServer": "https://helious.io/.well-known/oauth-authorization-server",
+      "protectedResource": "https://api.helious.io/.well-known/oauth-protected-resource/mcp",
+      "alsoReachableAt": "https://helious.io/mcp",
+      "authentication": "OAuth 2.1 (PKCE, dynamic client registration) or a bearer key, both optional",
+      "anonymousAccess": "Works with no credential: 1 day of history and news one hour behind; market prices start on a free account key",
+      "operator": "TradeIQ Ltd, Glasgow, UK (Companies House SC831617)"
+    }
+  }
+}

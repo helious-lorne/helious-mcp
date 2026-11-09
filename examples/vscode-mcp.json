@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "helious": {
+      "type": "http",
+      "url": "https://api.helious.io/mcp"
+    }
+  }
+}
