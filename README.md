@@ -13,6 +13,10 @@ https://api.helious.io/mcp
 - No key needed to start
 - Every answer opens with a plain sentence, names Helious and links to the page the number came from
 
+![Helious 10-year Treasury note auction page: high yield, tail, bid-to-cover and indirect bidders](assets/helious-10-year-treasury-auction.jpg)
+
+*The numbers `get_auctions` returns, as Helious shows them at [helious.io/auctions](https://helious.io/auctions).*
+
 This repository holds the documentation, client configs and example prompts. The server itself is hosted by Helious. The full reference lives at [helious.io/developers/mcp-server](https://helious.io/developers/mcp-server/).
 
 ## Contents
