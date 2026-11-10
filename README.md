@@ -8,7 +8,7 @@ Helious runs a remote [Model Context Protocol](https://modelcontextprotocol.io) 
 https://api.helious.io/mcp
 ```
 
-- 26 tools at one address
+- 27 tools at one address
 - Remote server over streamable HTTP, nothing to install or update
 - No key needed to start
 - Every answer opens with a plain sentence, names Helious and links to the page the number came from
@@ -23,7 +23,7 @@ This repository holds the documentation, client configs and example prompts. The
 
 - [Connect](#connect)
 - [What to ask](#what-to-ask)
-- [The 26 tools](#the-26-tools)
+- [The 27 tools](#the-26-tools)
 - [Authentication](#authentication)
 - [Call it by hand](#call-it-by-hand)
 - [Plans and credits](#plans-and-credits)
@@ -170,7 +170,7 @@ Once connected, ask in plain words. More in [examples/prompts.md](examples/promp
 - What are the odds of a Fed cut at the next meeting?
 - Why are yields moving today?
 
-## The 26 tools
+## The 27 tools
 
 | Tool | What it answers |
 |---|---|
@@ -196,6 +196,7 @@ Once connected, ask in plain words. More in [examples/prompts.md](examples/promp
 | `get_vol_board` | VIX and the other volatility gauges with their one-year percentile |
 | `get_correlations` | Cross-asset correlation matrix (stocks, bonds, dollar, gold, oil) over 30 to 120 day windows |
 | `get_nasdaq100` | The NASDAQ-100 ranked best to worst on the session |
+| `get_market_imbalance` | Net dollars to buy or sell into the NYSE opening and closing auctions, for the whole NYSE market and the S&P 500 names on the feed, with the ten largest names each way. Pass a symbol for one NYSE-listed name |
 | `get_earnings` | Mega-cap earnings dates and EPS |
 | `get_hormuz_transits` | Ships through the Strait of Hormuz per day, split tanker and cargo |
 | `get_access_info` | What the connected account can read, what a call costs and what is left this month. Draws no credit |

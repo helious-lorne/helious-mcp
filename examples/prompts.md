@@ -34,6 +34,7 @@ Ask in plain words once the server is connected. The tool each prompt usually re
 - Which currencies are strongest against the basket right now? (`get_fx_board`)
 - Where does the VIX sit in its one-year range? (`get_vol_board`)
 - How correlated are stocks and bonds over the last 60 days? (`get_correlations`)
+- What is the imbalance into the close today? (`get_market_imbalance`)
 - How many tankers went through the Strait of Hormuz yesterday? (`get_hormuz_transits`)
 
 ## Building something
